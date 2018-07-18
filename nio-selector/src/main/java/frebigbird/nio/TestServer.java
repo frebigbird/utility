@@ -9,7 +9,7 @@ import java.util.*;
 import java.util.logging.*;
 
 public class TestServer {
-    private static final long SLEEP_PERIOD = 5000 L; // 5 seconds
+    private static final long SLEEP_PERIOD = 5000L; // 5 seconds
     private static final int BUFFER_SIZE = 8192;
     private int port;
 
