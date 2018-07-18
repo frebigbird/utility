@@ -5,7 +5,7 @@ import java.io.*;
 import java.net.*;
 
 public class TestClient {
-    private static final long SLEEP_PERIOD = 5000 L; // 5 seconds
+    private static final long SLEEP_PERIOD = 5000L; // 5 seconds
     private String host;
     private int port;
 
