@@ -7,3 +7,6 @@ The NIO selector wakes up infinitely in this situation..
 4. client close the connection
 5. server write message (without any reading.. surely OP_READ is not set)
 6. server's select wakes up infinitely with return value 0
+
+mvn exec:java@Server
+mvn exec:java@Client
