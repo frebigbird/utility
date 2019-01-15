@@ -1,0 +1,79 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MulticastSender",
+            "request": "launch",
+            "mainClass": "frebigbird.tcpip.udp.multicast.MulticastSender",
+            "args": "230.0.0.1 8080",
+            "console": "externalTerminal",
+            "projectName": "tcpip"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MulticastReceiver",
+            "request": "launch",
+            "mainClass": "frebigbird.tcpip.udp.multicast.MulticastReceiver",
+            "args": "192.168.123.100 8080 230.0.0.1",
+            "projectName": "tcpip"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - UDPClient",
+            "request": "launch",
+            "mainClass": "frebigbird.tcpip.udp.unicast.UDPClient",
+            "args": "127.0.0.1 8080",
+            "console": "externalTerminal",
+            "projectName": "tcpip"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - UDPServer",
+            "request": "launch",
+            "mainClass": "frebigbird.tcpip.udp.unicast.UDPServer",
+            "args": "127.0.0.1 8080",
+            "projectName": "tcpip"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - BroadcastAddress",
+            "request": "launch",
+            "mainClass": "frebigbird.tcpip.udp.broadcast.BroadcastAddress",
+            "projectName": "tcpip"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - BroadcastSender",
+            "request": "launch",
+            "mainClass": "frebigbird.tcpip.udp.broadcast.BroadcastSender",
+            "args": "192.168.123.255 8080",
+            "console": "externalTerminal",
+            "projectName": "tcpip"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - BroadcastReceiver",
+            "request": "launch",
+            "mainClass": "frebigbird.tcpip.udp.broadcast.BroadcastReceiver",
+            "args": "192.168.123.100 8080",
+            "projectName": "tcpip"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TcpServer",
+            "request": "launch",
+            "mainClass": "frebigbird.tcpip.tcp.TcpServer",
+            "args": "127.0.0.1 8080",
+            "projectName": "tcpip"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TcpClient",
+            "request": "launch",
+            "mainClass": "frebigbird.tcpip.tcp.TcpClient",
+            "args": "127.0.0.1 8080",
+            "console": "externalTerminal",
+            "projectName": "tcpip"
+        }
+    ]
+}
