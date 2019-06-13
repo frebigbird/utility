@@ -8,7 +8,7 @@ import java.net.MulticastSocket;
 public class MulticastReceiver {
     public static void main(String[] args) throws IOException
     {
-        if (args.length != 3) {
+        if (args.length != 2) {
             System.out.printf("Usage: %s [join-group-ip] [listen-port]\n",  MulticastReceiver.class.getSimpleName());
             System.exit(1);
         }
